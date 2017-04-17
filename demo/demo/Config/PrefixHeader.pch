@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  demo
+//
+//  Created by Mac on 2017/4/17.
+//  Copyright © 2017年 OSZ. All rights reserved.
+//
+
+//#ifndef PrefixHeader_pch
+//#define PrefixHeader_pch
+//
+//// Include any system framework and library headers here that should be included in all compilation units.
+//// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//
+//#endif /* PrefixHeader_pch */
+
+
+#ifdef __OBJC__
+
+
+#ifdef DEBUG
+//#define NSLog(...) NSLog(__VA_ARGS__)
+#define NSLog(fmt,...) NSLog((@"%s [Line %d]" fmt),__PRETTY_FUNCTION__,__LINE__,##__VA_ARGS__)
+#else
+#define NSLog(...)
+
+#endif
+
+
+#define OSZScreenWidth    [UIScreen mainScreen].bounds.size.width
+#define OSZScreenHeight   [UIScreen mainScreen].bounds.size.height
+#define OSZScreenBounds     [UIScreen mainScreen].bounds
+
+//#import "YYModel.h"
+#import "OSZOneVC.h"
+#import "OSZTwoVC.h"
+
+#endif

@@ -18,6 +18,8 @@
 		044848161EA463B800120711 /* OSZCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 044848151EA463B800120711 /* OSZCharacterBuilder.m */; };
 		044848191EA468EA00120711 /* OSZStandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 044848181EA468EA00120711 /* OSZStandardCharacterBuilder.m */; };
 		0448481C1EA4700000120711 /* OSZBuildRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448481B1EA4700000120711 /* OSZBuildRole.m */; };
+		044848231EA4C56100120711 /* OSZTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044848221EA4C56100120711 /* OSZTwoVC.m */; };
+		044848291EA4D62700120711 /* OSZSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 044848281EA4D62700120711 /* OSZSingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,12 @@
 		044848181EA468EA00120711 /* OSZStandardCharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZStandardCharacterBuilder.m; sourceTree = "<group>"; };
 		0448481A1EA4700000120711 /* OSZBuildRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZBuildRole.h; sourceTree = "<group>"; };
 		0448481B1EA4700000120711 /* OSZBuildRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZBuildRole.m; sourceTree = "<group>"; };
+		044848211EA4C56100120711 /* OSZTwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZTwoVC.h; sourceTree = "<group>"; };
+		044848221EA4C56100120711 /* OSZTwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZTwoVC.m; sourceTree = "<group>"; };
+		044848251EA4C62400120711 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		044848261EA4C9FF00120711 /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
+		044848271EA4D62700120711 /* OSZSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZSingleton.h; sourceTree = "<group>"; };
+		044848281EA4D62700120711 /* OSZSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZSingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +121,9 @@
 			children = (
 				044847F81EA45F9400120711 /* AppEntry */,
 				044847FC1EA45F9400120711 /* Class */,
-				044848051EA45F9400120711 /* Resource */,
 				044848061EA45F9400120711 /* Utility */,
+				044848051EA45F9400120711 /* Resource */,
+				044848241EA4C60700120711 /* Config */,
 				044847C21EA45E5F00120711 /* Supporting Files */,
 			);
 			path = demo;
@@ -161,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				044847FD1EA45F9400120711 /* one(生成器模式) */,
-				044848011EA45F9400120711 /* two */,
+				0448481D1EA4C52800120711 /* two(单例模式) */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -207,37 +216,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		044848011EA45F9400120711 /* two */ = {
-			isa = PBXGroup;
-			children = (
-				044848021EA45F9400120711 /* Controller */,
-				044848031EA45F9400120711 /* Model */,
-				044848041EA45F9400120711 /* View */,
-			);
-			path = two;
-			sourceTree = "<group>";
-		};
-		044848021EA45F9400120711 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		044848031EA45F9400120711 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		044848041EA45F9400120711 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		044848051EA45F9400120711 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +245,50 @@
 				044848091EA45F9400120711 /* demo.xcdatamodeld */,
 			);
 			path = Database;
+			sourceTree = "<group>";
+		};
+		0448481D1EA4C52800120711 /* two(单例模式) */ = {
+			isa = PBXGroup;
+			children = (
+				0448481E1EA4C52800120711 /* Controller */,
+				0448481F1EA4C52800120711 /* Model */,
+				044848201EA4C52800120711 /* View */,
+			);
+			path = "two(单例模式)";
+			sourceTree = "<group>";
+		};
+		0448481E1EA4C52800120711 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044848211EA4C56100120711 /* OSZTwoVC.h */,
+				044848221EA4C56100120711 /* OSZTwoVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0448481F1EA4C52800120711 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				044848271EA4D62700120711 /* OSZSingleton.h */,
+				044848281EA4D62700120711 /* OSZSingleton.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044848201EA4C52800120711 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044848241EA4C60700120711 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				044848261EA4C9FF00120711 /* singleton.h */,
+				044848251EA4C62400120711 /* PrefixHeader.pch */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,6 +429,8 @@
 				044848191EA468EA00120711 /* OSZStandardCharacterBuilder.m in Sources */,
 				044848131EA461F400120711 /* OSZCharacter.m in Sources */,
 				044848101EA460D800120711 /* OSZOneVC.m in Sources */,
+				044848231EA4C56100120711 /* OSZTwoVC.m in Sources */,
+				044848291EA4D62700120711 /* OSZSingleton.m in Sources */,
 				0448480D1EA45F9400120711 /* demo.xcdatamodeld in Sources */,
 				0448480C1EA45F9400120711 /* main.m in Sources */,
 				044848161EA463B800120711 /* OSZCharacterBuilder.m in Sources */,
@@ -542,7 +566,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DEVELOPMENT_TEAM = M53U6W63RE;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = demo/Config/PrefixHeader.pch;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.OSZ.demo;
@@ -555,7 +582,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DEVELOPMENT_TEAM = M53U6W63RE;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = demo/Config/PrefixHeader.pch;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.OSZ.demo;

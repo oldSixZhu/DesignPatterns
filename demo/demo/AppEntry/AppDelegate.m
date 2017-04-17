@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "OSZOneVC.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +19,8 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    OSZOneVC *vc = [[OSZOneVC alloc]init];
+//    OSZOneVC *vc = [[OSZOneVC alloc]init];
+    OSZTwoVC *vc = [[OSZTwoVC alloc]init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     
