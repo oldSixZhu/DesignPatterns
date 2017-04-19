@@ -29,8 +29,8 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-//    [self setupUI1];
-    [self setupUI2];
+    [self setupUI1];
+//    [self setupUI2];
 }
 
 //    类适配器

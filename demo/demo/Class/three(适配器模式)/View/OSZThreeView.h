@@ -11,13 +11,14 @@
 
 @interface OSZThreeView : UIView
 
-//lbl内容
-@property (nonatomic, copy) NSString *lblStr;
 
-//按钮内容
-@property (nonatomic, copy) NSString *btnStr;
+////lbl内容
+//@property (nonatomic, copy) NSString *lblStr;
+//
+////按钮内容
+//@property (nonatomic, copy) NSString *btnStr;
 
-//数据
+//有适配器给控件赋值,不用暴露属性加载数据了
 - (void)loadData:(id<OSZViewAdapterProtocol>)data;
 
 @end
