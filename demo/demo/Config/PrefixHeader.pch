@@ -34,5 +34,6 @@
 //#import "YYModel.h"
 #import "OSZOneVC.h"
 #import "OSZTwoVC.h"
+#import "OSZThreeVC.h"
 
 #endif

@@ -20,7 +20,8 @@
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
 //    OSZOneVC *vc = [[OSZOneVC alloc]init];
-    OSZTwoVC *vc = [[OSZTwoVC alloc]init];
+//    OSZTwoVC *vc = [[OSZTwoVC alloc]init];
+    OSZThreeVC *vc = [[OSZThreeVC alloc]init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     
