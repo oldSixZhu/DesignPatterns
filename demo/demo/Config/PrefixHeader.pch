@@ -37,5 +37,6 @@
 #import "OSZThreeVC.h"
 #import "OSZFourVC.h"
 #import "OSZFiveVC.h"
+#import "OSZSixVC.h"
 
 #endif
