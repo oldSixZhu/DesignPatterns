@@ -19,10 +19,12 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
 //    OSZOneVC *vc = [[OSZOneVC alloc]init];
 //    OSZTwoVC *vc = [[OSZTwoVC alloc]init];
 //    OSZThreeVC *vc = [[OSZThreeVC alloc]init];
-    OSZFourVC *vc = [[OSZFourVC alloc]init];
+//    OSZFourVC *vc = [[OSZFourVC alloc]init];
+    OSZFiveVC *vc = [[OSZFiveVC alloc]init];
     
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
