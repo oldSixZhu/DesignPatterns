@@ -45,6 +45,7 @@
 		044DF4DA1EA88802007B0749 /* OSZRobot2.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DF4D91EA88802007B0749 /* OSZRobot2.m */; };
 		044DF4DD1EA88EC6007B0749 /* OSZRobot.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DF4DC1EA88EC6007B0749 /* OSZRobot.m */; };
 		044DF4E01EA89035007B0749 /* OSZFourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DF4DF1EA89035007B0749 /* OSZFourVC.m */; };
+		048E61D11EADAAAE009CCE4A /* OSZSevenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E61D01EADAAAE009CCE4A /* OSZSevenVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +147,8 @@
 		044DF4DC1EA88EC6007B0749 /* OSZRobot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZRobot.m; sourceTree = "<group>"; };
 		044DF4DE1EA89035007B0749 /* OSZFourVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZFourVC.h; sourceTree = "<group>"; };
 		044DF4DF1EA89035007B0749 /* OSZFourVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZFourVC.m; sourceTree = "<group>"; };
+		048E61CF1EADAAAE009CCE4A /* OSZSevenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZSevenVC.h; sourceTree = "<group>"; };
+		048E61D01EADAAAE009CCE4A /* OSZSevenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZSevenVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -392,6 +395,7 @@
 				044DF4C61EA85A9B007B0749 /* four(桥接模式) */,
 				0439D1121EA994A400396BBE /* five(外观模式) */,
 				0439D1221EA9FB5F00396BBE /* six(中介者模式) */,
+				048E61CB1EADAA98009CCE4A /* seven(观察者模式) */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -556,6 +560,39 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		048E61CB1EADAA98009CCE4A /* seven(观察者模式) */ = {
+			isa = PBXGroup;
+			children = (
+				048E61CC1EADAA98009CCE4A /* Controller */,
+				048E61CD1EADAA98009CCE4A /* Model */,
+				048E61CE1EADAA98009CCE4A /* View */,
+			);
+			path = "seven(观察者模式)";
+			sourceTree = "<group>";
+		};
+		048E61CC1EADAA98009CCE4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				048E61CF1EADAAAE009CCE4A /* OSZSevenVC.h */,
+				048E61D01EADAAAE009CCE4A /* OSZSevenVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		048E61CD1EADAA98009CCE4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		048E61CE1EADAA98009CCE4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -700,6 +737,7 @@
 				040705C91EA711FC00DE74FA /* OSZOneModel.m in Sources */,
 				044848231EA4C56100120711 /* OSZTwoVC.m in Sources */,
 				0439D11E1EA996B400396BBE /* OSZCabDriver.m in Sources */,
+				048E61D11EADAAAE009CCE4A /* OSZSevenVC.m in Sources */,
 				040705C11EA70A2F00DE74FA /* OSZThreeView.m in Sources */,
 				0439D1371EA9FFAA00396BBE /* OSZPlaneC.m in Sources */,
 				044848291EA4D62700120711 /* OSZSingleton.m in Sources */,
