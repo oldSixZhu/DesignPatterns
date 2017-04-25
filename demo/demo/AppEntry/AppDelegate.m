@@ -26,7 +26,8 @@
 //    OSZFourVC *vc = [[OSZFourVC alloc]init];
 //    OSZFiveVC *vc = [[OSZFiveVC alloc]init];
 //    OSZSixVC *vc = [[OSZSixVC alloc]init];
-    OSZSevenVC *vc = [[OSZSevenVC alloc]init];
+//    OSZSevenVC *vc = [[OSZSevenVC alloc]init];
+    OSZEightVC *vc = [[OSZEightVC alloc]init];
     
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];

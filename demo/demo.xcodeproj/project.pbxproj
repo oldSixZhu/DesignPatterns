@@ -15,6 +15,9 @@
 		040705D21EA7143300DE74FA /* OSZTwoModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 040705D11EA7143300DE74FA /* OSZTwoModelAdapter.m */; };
 		040705D51EA714C400DE74FA /* OSZModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 040705D41EA714C400DE74FA /* OSZModelAdapter.m */; };
 		042766E21EA5F1E600DBFEF1 /* OSZThreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042766E11EA5F1E600DBFEF1 /* OSZThreeVC.m */; };
+		04297C741EAEE8330035D18B /* OSZEightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04297C731EAEE8330035D18B /* OSZEightVC.m */; };
+		04297C771EAEEFF20035D18B /* OSZNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04297C761EAEEFF20035D18B /* OSZNode.m */; };
+		04297C7B1EAEFE260035D18B /* OSZComponet.m in Sources */ = {isa = PBXBuildFile; fileRef = 04297C7A1EAEFE260035D18B /* OSZComponet.m */; };
 		0439D1181EA9956D00396BBE /* OSZCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439D1171EA9956D00396BBE /* OSZCar.m */; };
 		0439D11B1EA9963D00396BBE /* OSZTaximeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439D11A1EA9963D00396BBE /* OSZTaximeter.m */; };
 		0439D11E1EA996B400396BBE /* OSZCabDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439D11D1EA996B400396BBE /* OSZCabDriver.m */; };
@@ -83,6 +86,13 @@
 		040705D41EA714C400DE74FA /* OSZModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZModelAdapter.m; sourceTree = "<group>"; };
 		042766E01EA5F1E600DBFEF1 /* OSZThreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZThreeVC.h; sourceTree = "<group>"; };
 		042766E11EA5F1E600DBFEF1 /* OSZThreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZThreeVC.m; sourceTree = "<group>"; };
+		04297C721EAEE8330035D18B /* OSZEightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZEightVC.h; sourceTree = "<group>"; };
+		04297C731EAEE8330035D18B /* OSZEightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZEightVC.m; sourceTree = "<group>"; };
+		04297C751EAEEFF20035D18B /* OSZNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZNode.h; sourceTree = "<group>"; };
+		04297C761EAEEFF20035D18B /* OSZNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZNode.m; sourceTree = "<group>"; };
+		04297C781EAEFBD20035D18B /* NodeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeProtocol.h; sourceTree = "<group>"; };
+		04297C791EAEFE260035D18B /* OSZComponet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZComponet.h; sourceTree = "<group>"; };
+		04297C7A1EAEFE260035D18B /* OSZComponet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZComponet.m; sourceTree = "<group>"; };
 		0439D1161EA9956D00396BBE /* OSZCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZCar.h; sourceTree = "<group>"; };
 		0439D1171EA9956D00396BBE /* OSZCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZCar.m; sourceTree = "<group>"; };
 		0439D1191EA9963D00396BBE /* OSZTaximeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZTaximeter.h; sourceTree = "<group>"; };
@@ -228,6 +238,44 @@
 			children = (
 				040705BF1EA70A2F00DE74FA /* OSZThreeView.h */,
 				040705C01EA70A2F00DE74FA /* OSZThreeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04297C6E1EAEE8180035D18B /* eight(组合模式) */ = {
+			isa = PBXGroup;
+			children = (
+				04297C6F1EAEE8180035D18B /* Controller */,
+				04297C701EAEE8180035D18B /* Model */,
+				04297C711EAEE8180035D18B /* View */,
+			);
+			path = "eight(组合模式)";
+			sourceTree = "<group>";
+		};
+		04297C6F1EAEE8180035D18B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04297C721EAEE8330035D18B /* OSZEightVC.h */,
+				04297C731EAEE8330035D18B /* OSZEightVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04297C701EAEE8180035D18B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04297C781EAEFBD20035D18B /* NodeProtocol.h */,
+				04297C751EAEEFF20035D18B /* OSZNode.h */,
+				04297C761EAEEFF20035D18B /* OSZNode.m */,
+				04297C791EAEFE260035D18B /* OSZComponet.h */,
+				04297C7A1EAEFE260035D18B /* OSZComponet.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04297C711EAEE8180035D18B /* View */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -396,6 +444,7 @@
 				0439D1121EA994A400396BBE /* five(外观模式) */,
 				0439D1221EA9FB5F00396BBE /* six(中介者模式) */,
 				048E61CB1EADAA98009CCE4A /* seven(观察者模式) */,
+				04297C6E1EAEE8180035D18B /* eight(组合模式) */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -738,6 +787,7 @@
 				044848231EA4C56100120711 /* OSZTwoVC.m in Sources */,
 				0439D11E1EA996B400396BBE /* OSZCabDriver.m in Sources */,
 				048E61D11EADAAAE009CCE4A /* OSZSevenVC.m in Sources */,
+				04297C7B1EAEFE260035D18B /* OSZComponet.m in Sources */,
 				040705C11EA70A2F00DE74FA /* OSZThreeView.m in Sources */,
 				0439D1371EA9FFAA00396BBE /* OSZPlaneC.m in Sources */,
 				044848291EA4D62700120711 /* OSZSingleton.m in Sources */,
@@ -750,11 +800,13 @@
 				040705C61EA710FB00DE74FA /* OSZViewAdapter.m in Sources */,
 				0448480C1EA45F9400120711 /* main.m in Sources */,
 				0439D1311EA9FF9900396BBE /* OSZPlaneA.m in Sources */,
+				04297C771EAEEFF20035D18B /* OSZNode.m in Sources */,
 				042766E21EA5F1E600DBFEF1 /* OSZThreeVC.m in Sources */,
 				0439D1341EA9FFA200396BBE /* OSZPlaneB.m in Sources */,
 				044DF4D41EA863D1007B0749 /* OSZRealConsole.m in Sources */,
 				044848161EA463B800120711 /* OSZCharacterBuilder.m in Sources */,
 				0448480B1EA45F9400120711 /* AppDelegate.m in Sources */,
+				04297C741EAEE8330035D18B /* OSZEightVC.m in Sources */,
 				0448481C1EA4700000120711 /* OSZBuildRole.m in Sources */,
 				044DF4DD1EA88EC6007B0749 /* OSZRobot.m in Sources */,
 				040705CF1EA7131800DE74FA /* OSZOneModelAdapter.m in Sources */,

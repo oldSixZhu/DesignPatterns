@@ -29,7 +29,7 @@
 
 #define kScreenWidth    [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight   [UIScreen mainScreen].bounds.size.height
-#define kScreenBounds     [UIScreen mainScreen].bounds
+#define kScreenBounds   [UIScreen mainScreen].bounds
 
 //#import "YYModel.h"
 #import "OSZOneVC.h"
@@ -39,5 +39,6 @@
 #import "OSZFiveVC.h"
 #import "OSZSixVC.h"
 #import "OSZSevenVC.h"
+#import "OSZEightVC.h"
 
 #endif
