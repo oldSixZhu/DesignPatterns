@@ -18,6 +18,7 @@
 		04297C741EAEE8330035D18B /* OSZEightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04297C731EAEE8330035D18B /* OSZEightVC.m */; };
 		04297C771EAEEFF20035D18B /* OSZNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04297C761EAEEFF20035D18B /* OSZNode.m */; };
 		04297C7B1EAEFE260035D18B /* OSZComponet.m in Sources */ = {isa = PBXBuildFile; fileRef = 04297C7A1EAEFE260035D18B /* OSZComponet.m */; };
+		04297C821EAF49560035D18B /* OSZNineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04297C811EAF49560035D18B /* OSZNineVC.m */; };
 		0439D1181EA9956D00396BBE /* OSZCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439D1171EA9956D00396BBE /* OSZCar.m */; };
 		0439D11B1EA9963D00396BBE /* OSZTaximeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439D11A1EA9963D00396BBE /* OSZTaximeter.m */; };
 		0439D11E1EA996B400396BBE /* OSZCabDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439D11D1EA996B400396BBE /* OSZCabDriver.m */; };
@@ -93,6 +94,8 @@
 		04297C781EAEFBD20035D18B /* NodeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeProtocol.h; sourceTree = "<group>"; };
 		04297C791EAEFE260035D18B /* OSZComponet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZComponet.h; sourceTree = "<group>"; };
 		04297C7A1EAEFE260035D18B /* OSZComponet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZComponet.m; sourceTree = "<group>"; };
+		04297C801EAF49560035D18B /* OSZNineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZNineVC.h; sourceTree = "<group>"; };
+		04297C811EAF49560035D18B /* OSZNineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZNineVC.m; sourceTree = "<group>"; };
 		0439D1161EA9956D00396BBE /* OSZCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZCar.h; sourceTree = "<group>"; };
 		0439D1171EA9956D00396BBE /* OSZCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZCar.m; sourceTree = "<group>"; };
 		0439D1191EA9963D00396BBE /* OSZTaximeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZTaximeter.h; sourceTree = "<group>"; };
@@ -280,6 +283,39 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		04297C7C1EAF491D0035D18B /* nine(迭代器模式) */ = {
+			isa = PBXGroup;
+			children = (
+				04297C7D1EAF491D0035D18B /* Controller */,
+				04297C7E1EAF491D0035D18B /* Model */,
+				04297C7F1EAF491D0035D18B /* View */,
+			);
+			path = "nine(迭代器模式)";
+			sourceTree = "<group>";
+		};
+		04297C7D1EAF491D0035D18B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04297C801EAF49560035D18B /* OSZNineVC.h */,
+				04297C811EAF49560035D18B /* OSZNineVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04297C7E1EAF491D0035D18B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04297C7F1EAF491D0035D18B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0439D1121EA994A400396BBE /* five(外观模式) */ = {
 			isa = PBXGroup;
 			children = (
@@ -445,6 +481,7 @@
 				0439D1221EA9FB5F00396BBE /* six(中介者模式) */,
 				048E61CB1EADAA98009CCE4A /* seven(观察者模式) */,
 				04297C6E1EAEE8180035D18B /* eight(组合模式) */,
+				04297C7C1EAF491D0035D18B /* nine(迭代器模式) */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -806,6 +843,7 @@
 				044DF4D41EA863D1007B0749 /* OSZRealConsole.m in Sources */,
 				044848161EA463B800120711 /* OSZCharacterBuilder.m in Sources */,
 				0448480B1EA45F9400120711 /* AppDelegate.m in Sources */,
+				04297C821EAF49560035D18B /* OSZNineVC.m in Sources */,
 				04297C741EAEE8330035D18B /* OSZEightVC.m in Sources */,
 				0448481C1EA4700000120711 /* OSZBuildRole.m in Sources */,
 				044DF4DD1EA88EC6007B0749 /* OSZRobot.m in Sources */,
