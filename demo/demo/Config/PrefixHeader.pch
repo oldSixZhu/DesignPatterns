@@ -41,5 +41,6 @@
 #import "OSZSevenVC.h"
 #import "OSZEightVC.h"
 #import "OSZNineVC.h"
+#import "OSZTenVC.h"
 
 #endif

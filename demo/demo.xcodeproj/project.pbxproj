@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040276711EB0882B00A8CEB9 /* OSZTenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040276701EB0882B00A8CEB9 /* OSZTenVC.m */; };
+		040276741EB08B0C00A8CEB9 /* OSZCars.m in Sources */ = {isa = PBXBuildFile; fileRef = 040276731EB08B0C00A8CEB9 /* OSZCars.m */; };
+		040276771EB08B3200A8CEB9 /* OSZEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 040276761EB08B3200A8CEB9 /* OSZEngine.m */; };
+		0402767D1EB08CE800A8CEB9 /* OSZWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402767C1EB08CE800A8CEB9 /* OSZWheel.m */; };
 		040705C11EA70A2F00DE74FA /* OSZThreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040705C01EA70A2F00DE74FA /* OSZThreeView.m */; };
 		040705C61EA710FB00DE74FA /* OSZViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 040705C41EA710FB00DE74FA /* OSZViewAdapter.m */; };
 		040705C91EA711FC00DE74FA /* OSZOneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 040705C81EA711FC00DE74FA /* OSZOneModel.m */; };
@@ -14,6 +18,7 @@
 		040705CF1EA7131800DE74FA /* OSZOneModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 040705CE1EA7131800DE74FA /* OSZOneModelAdapter.m */; };
 		040705D21EA7143300DE74FA /* OSZTwoModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 040705D11EA7143300DE74FA /* OSZTwoModelAdapter.m */; };
 		040705D51EA714C400DE74FA /* OSZModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 040705D41EA714C400DE74FA /* OSZModelAdapter.m */; };
+		040D7F141EB09BD500D5E60A /* OSZRepairman.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D7F131EB09BD500D5E60A /* OSZRepairman.m */; };
 		042766E21EA5F1E600DBFEF1 /* OSZThreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042766E11EA5F1E600DBFEF1 /* OSZThreeVC.m */; };
 		04297C741EAEE8330035D18B /* OSZEightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04297C731EAEE8330035D18B /* OSZEightVC.m */; };
 		04297C771EAEEFF20035D18B /* OSZNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04297C761EAEEFF20035D18B /* OSZNode.m */; };
@@ -70,6 +75,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0402766F1EB0882B00A8CEB9 /* OSZTenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZTenVC.h; sourceTree = "<group>"; };
+		040276701EB0882B00A8CEB9 /* OSZTenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZTenVC.m; sourceTree = "<group>"; };
+		040276721EB08B0C00A8CEB9 /* OSZCars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZCars.h; sourceTree = "<group>"; };
+		040276731EB08B0C00A8CEB9 /* OSZCars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZCars.m; sourceTree = "<group>"; };
+		040276751EB08B3200A8CEB9 /* OSZEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZEngine.h; sourceTree = "<group>"; };
+		040276761EB08B3200A8CEB9 /* OSZEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZEngine.m; sourceTree = "<group>"; };
+		0402767B1EB08CE800A8CEB9 /* OSZWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZWheel.h; sourceTree = "<group>"; };
+		0402767C1EB08CE800A8CEB9 /* OSZWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZWheel.m; sourceTree = "<group>"; };
+		040276811EB0968A00A8CEB9 /* OSZVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZVisitor.h; sourceTree = "<group>"; };
 		040705BF1EA70A2F00DE74FA /* OSZThreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZThreeView.h; sourceTree = "<group>"; };
 		040705C01EA70A2F00DE74FA /* OSZThreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZThreeView.m; sourceTree = "<group>"; };
 		040705C31EA710FB00DE74FA /* OSZViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZViewAdapter.h; sourceTree = "<group>"; };
@@ -85,6 +99,8 @@
 		040705D11EA7143300DE74FA /* OSZTwoModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZTwoModelAdapter.m; sourceTree = "<group>"; };
 		040705D31EA714C400DE74FA /* OSZModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZModelAdapter.h; sourceTree = "<group>"; };
 		040705D41EA714C400DE74FA /* OSZModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZModelAdapter.m; sourceTree = "<group>"; };
+		040D7F121EB09BD500D5E60A /* OSZRepairman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZRepairman.h; sourceTree = "<group>"; };
+		040D7F131EB09BD500D5E60A /* OSZRepairman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZRepairman.m; sourceTree = "<group>"; };
 		042766E01EA5F1E600DBFEF1 /* OSZThreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZThreeVC.h; sourceTree = "<group>"; };
 		042766E11EA5F1E600DBFEF1 /* OSZThreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZThreeVC.m; sourceTree = "<group>"; };
 		04297C721EAEE8330035D18B /* OSZEightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZEightVC.h; sourceTree = "<group>"; };
@@ -189,6 +205,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0402766B1EB0880D00A8CEB9 /* ten(访问者模式) */ = {
+			isa = PBXGroup;
+			children = (
+				0402766C1EB0880D00A8CEB9 /* Controller */,
+				0402766D1EB0880D00A8CEB9 /* Model */,
+				0402766E1EB0880D00A8CEB9 /* View */,
+			);
+			path = "ten(访问者模式)";
+			sourceTree = "<group>";
+		};
+		0402766C1EB0880D00A8CEB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0402766F1EB0882B00A8CEB9 /* OSZTenVC.h */,
+				040276701EB0882B00A8CEB9 /* OSZTenVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0402766D1EB0880D00A8CEB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				040276721EB08B0C00A8CEB9 /* OSZCars.h */,
+				040276731EB08B0C00A8CEB9 /* OSZCars.m */,
+				040276751EB08B3200A8CEB9 /* OSZEngine.h */,
+				040276761EB08B3200A8CEB9 /* OSZEngine.m */,
+				0402767B1EB08CE800A8CEB9 /* OSZWheel.h */,
+				0402767C1EB08CE800A8CEB9 /* OSZWheel.m */,
+				040276811EB0968A00A8CEB9 /* OSZVisitor.h */,
+				040D7F121EB09BD500D5E60A /* OSZRepairman.h */,
+				040D7F131EB09BD500D5E60A /* OSZRepairman.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0402766E1EB0880D00A8CEB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		040705C21EA710FB00DE74FA /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
@@ -482,6 +540,7 @@
 				048E61CB1EADAA98009CCE4A /* seven(观察者模式) */,
 				04297C6E1EAEE8180035D18B /* eight(组合模式) */,
 				04297C7C1EAF491D0035D18B /* nine(迭代器模式) */,
+				0402766B1EB0880D00A8CEB9 /* ten(访问者模式) */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -816,10 +875,12 @@
 			files = (
 				044848191EA468EA00120711 /* OSZStandardCharacterBuilder.m in Sources */,
 				044DF4D71EA867CF007B0749 /* OSZRobot1.m in Sources */,
+				0402767D1EB08CE800A8CEB9 /* OSZWheel.m in Sources */,
 				044848131EA461F400120711 /* OSZCharacter.m in Sources */,
 				044848101EA460D800120711 /* OSZOneVC.m in Sources */,
 				0439D11B1EA9963D00396BBE /* OSZTaximeter.m in Sources */,
 				040705CC1EA7126100DE74FA /* OSZTwoModel.m in Sources */,
+				040D7F141EB09BD500D5E60A /* OSZRepairman.m in Sources */,
 				040705C91EA711FC00DE74FA /* OSZOneModel.m in Sources */,
 				044848231EA4C56100120711 /* OSZTwoVC.m in Sources */,
 				0439D11E1EA996B400396BBE /* OSZCabDriver.m in Sources */,
@@ -830,13 +891,16 @@
 				044848291EA4D62700120711 /* OSZSingleton.m in Sources */,
 				040705D51EA714C400DE74FA /* OSZModelAdapter.m in Sources */,
 				0439D1181EA9956D00396BBE /* OSZCar.m in Sources */,
+				040276771EB08B3200A8CEB9 /* OSZEngine.m in Sources */,
 				0439D12B1EA9FC6100396BBE /* OSZSixVC.m in Sources */,
 				0439D13D1EAA19A300396BBE /* OSZSignalCar.m in Sources */,
 				044DF4D11EA86189007B0749 /* OSZConsole.m in Sources */,
 				0448480D1EA45F9400120711 /* demo.xcdatamodeld in Sources */,
 				040705C61EA710FB00DE74FA /* OSZViewAdapter.m in Sources */,
+				040276741EB08B0C00A8CEB9 /* OSZCars.m in Sources */,
 				0448480C1EA45F9400120711 /* main.m in Sources */,
 				0439D1311EA9FF9900396BBE /* OSZPlaneA.m in Sources */,
+				040276711EB0882B00A8CEB9 /* OSZTenVC.m in Sources */,
 				04297C771EAEEFF20035D18B /* OSZNode.m in Sources */,
 				042766E21EA5F1E600DBFEF1 /* OSZThreeVC.m in Sources */,
 				0439D1341EA9FFA200396BBE /* OSZPlaneB.m in Sources */,
