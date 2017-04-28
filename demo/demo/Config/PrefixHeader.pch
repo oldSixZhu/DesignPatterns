@@ -44,5 +44,6 @@
 #import "OSZTenVC.h"
 #import "OSZElevenVC.h"
 #import "OSZTwelveVC.h"
+#import "OSZThirteenVC.h"
 
 #endif
