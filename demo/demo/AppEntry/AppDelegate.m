@@ -32,7 +32,8 @@
 //    OSZTenVC *vc = [[OSZTenVC alloc]init];
 //    OSZElevenVC *vc = [[OSZElevenVC alloc]init];
 //    OSZTwelveVC *vc = [[OSZTwelveVC alloc]init];
-    OSZThirteenVC *vc = [[OSZThirteenVC alloc]init];
+//    OSZThirteenVC *vc = [[OSZThirteenVC alloc]init];
+    OSZFourteenVC *vc = [[OSZFourteenVC alloc]init];
     
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
