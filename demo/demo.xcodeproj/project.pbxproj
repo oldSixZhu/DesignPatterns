@@ -73,10 +73,13 @@
 		044DF4DA1EA88802007B0749 /* OSZRobot2.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DF4D91EA88802007B0749 /* OSZRobot2.m */; };
 		044DF4DD1EA88EC6007B0749 /* OSZRobot.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DF4DC1EA88EC6007B0749 /* OSZRobot.m */; };
 		044DF4E01EA89035007B0749 /* OSZFourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DF4DF1EA89035007B0749 /* OSZFourVC.m */; };
+		046535DB1EC1B956001E8427 /* OSZDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046535DA1EC1B956001E8427 /* OSZDrawView.m */; };
+		046535DE1EC1BA1F001E8427 /* OSZLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 046535DD1EC1BA1F001E8427 /* OSZLine.m */; };
 		048E61D11EADAAAE009CCE4A /* OSZSevenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E61D01EADAAAE009CCE4A /* OSZSevenVC.m */; };
 		04CC861B1EB8380900187168 /* OSZFourteenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC861A1EB8380900187168 /* OSZFourteenVC.m */; };
 		04CC861E1EB860C100187168 /* OSZFourteenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC861D1EB860C100187168 /* OSZFourteenView.m */; };
 		04CC86211EB8634400187168 /* OSZFourteenVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC86201EB8634400187168 /* OSZFourteenVC2.m */; };
+		04CC86281EB873D200187168 /* OSZFifteenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC86271EB873D200187168 /* OSZFifteenVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -237,6 +240,10 @@
 		044DF4DC1EA88EC6007B0749 /* OSZRobot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZRobot.m; sourceTree = "<group>"; };
 		044DF4DE1EA89035007B0749 /* OSZFourVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZFourVC.h; sourceTree = "<group>"; };
 		044DF4DF1EA89035007B0749 /* OSZFourVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZFourVC.m; sourceTree = "<group>"; };
+		046535D91EC1B956001E8427 /* OSZDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZDrawView.h; sourceTree = "<group>"; };
+		046535DA1EC1B956001E8427 /* OSZDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZDrawView.m; sourceTree = "<group>"; };
+		046535DC1EC1BA1F001E8427 /* OSZLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZLine.h; sourceTree = "<group>"; };
+		046535DD1EC1BA1F001E8427 /* OSZLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZLine.m; sourceTree = "<group>"; };
 		048E61CF1EADAAAE009CCE4A /* OSZSevenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZSevenVC.h; sourceTree = "<group>"; };
 		048E61D01EADAAAE009CCE4A /* OSZSevenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZSevenVC.m; sourceTree = "<group>"; };
 		04CC86191EB8380900187168 /* OSZFourteenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZFourteenVC.h; sourceTree = "<group>"; };
@@ -245,6 +252,8 @@
 		04CC861D1EB860C100187168 /* OSZFourteenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZFourteenView.m; sourceTree = "<group>"; };
 		04CC861F1EB8634400187168 /* OSZFourteenVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZFourteenVC2.h; sourceTree = "<group>"; };
 		04CC86201EB8634400187168 /* OSZFourteenVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZFourteenVC2.m; sourceTree = "<group>"; };
+		04CC86261EB873D200187168 /* OSZFifteenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZFifteenVC.h; sourceTree = "<group>"; };
+		04CC86271EB873D200187168 /* OSZFifteenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZFifteenVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -760,6 +769,7 @@
 				04057FCB1EB2E74C00F55647 /* twelve(责任链模式) */,
 				0405802E1EB3401500F55647 /* thirteen(模板模式) */,
 				04CC86151EB837EE00187168 /* fourteen(策略模式) */,
+				04CC86221EB873B600187168 /* fifteen(命令模式) */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -994,6 +1004,43 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		04CC86221EB873B600187168 /* fifteen(命令模式) */ = {
+			isa = PBXGroup;
+			children = (
+				04CC86231EB873B600187168 /* Controller */,
+				04CC86241EB873B600187168 /* Model */,
+				04CC86251EB873B600187168 /* View */,
+			);
+			path = "fifteen(命令模式)";
+			sourceTree = "<group>";
+		};
+		04CC86231EB873B600187168 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04CC86261EB873D200187168 /* OSZFifteenVC.h */,
+				04CC86271EB873D200187168 /* OSZFifteenVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04CC86241EB873B600187168 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04CC86251EB873B600187168 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				046535DC1EC1BA1F001E8427 /* OSZLine.h */,
+				046535DD1EC1BA1F001E8427 /* OSZLine.m */,
+				046535D91EC1B956001E8427 /* OSZDrawView.h */,
+				046535DA1EC1B956001E8427 /* OSZDrawView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1166,12 +1213,15 @@
 				0448480D1EA45F9400120711 /* demo.xcdatamodeld in Sources */,
 				04057FC71EB2D02600F55647 /* OSZPhoto+MeiYan.m in Sources */,
 				04057FEB1EB2F24600F55647 /* OSZAvatar.m in Sources */,
+				046535DB1EC1B956001E8427 /* OSZDrawView.m in Sources */,
+				046535DE1EC1BA1F001E8427 /* OSZLine.m in Sources */,
 				040705C61EA710FB00DE74FA /* OSZViewAdapter.m in Sources */,
 				040276741EB08B0C00A8CEB9 /* OSZCars.m in Sources */,
 				0448480C1EA45F9400120711 /* main.m in Sources */,
 				0439D1311EA9FF9900396BBE /* OSZPlaneA.m in Sources */,
 				040580371EB3421F00F55647 /* OSZFood.m in Sources */,
 				040276711EB0882B00A8CEB9 /* OSZTenVC.m in Sources */,
+				04CC86281EB873D200187168 /* OSZFifteenVC.m in Sources */,
 				04057FCA1EB2D06E00F55647 /* OSZPhoto+Edit.m in Sources */,
 				04297C771EAEEFF20035D18B /* OSZNode.m in Sources */,
 				040580341EB340AF00F55647 /* OSZThirteenVC.m in Sources */,
