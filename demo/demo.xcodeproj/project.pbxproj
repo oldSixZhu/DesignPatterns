@@ -38,6 +38,9 @@
 		040C5E831EB1D52000D90463 /* OSZPhotoMeiYan.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C5E821EB1D52000D90463 /* OSZPhotoMeiYan.m */; };
 		040C5E861EB1D57B00D90463 /* OSZPhotoEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C5E851EB1D57B00D90463 /* OSZPhotoEdit.m */; };
 		040D7F141EB09BD500D5E60A /* OSZRepairman.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D7F131EB09BD500D5E60A /* OSZRepairman.m */; };
+		0410B3011EC4023200CF4EED /* OSZSixteenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0410B3001EC4023200CF4EED /* OSZSixteenVC.m */; };
+		0410B30D1EC44BFF00CF4EED /* OSZFlower.m in Sources */ = {isa = PBXBuildFile; fileRef = 0410B30C1EC44BFF00CF4EED /* OSZFlower.m */; };
+		0410B3101EC4542600CF4EED /* OSZFlowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0410B30F1EC4542600CF4EED /* OSZFlowerFactory.m */; };
 		042766E21EA5F1E600DBFEF1 /* OSZThreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042766E11EA5F1E600DBFEF1 /* OSZThreeVC.m */; };
 		04297C741EAEE8330035D18B /* OSZEightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04297C731EAEE8330035D18B /* OSZEightVC.m */; };
 		04297C771EAEEFF20035D18B /* OSZNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04297C761EAEEFF20035D18B /* OSZNode.m */; };
@@ -165,6 +168,12 @@
 		040C5E871EB1DDCF00D90463 /* OSZPhotoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZPhotoProtocol.h; sourceTree = "<group>"; };
 		040D7F121EB09BD500D5E60A /* OSZRepairman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZRepairman.h; sourceTree = "<group>"; };
 		040D7F131EB09BD500D5E60A /* OSZRepairman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZRepairman.m; sourceTree = "<group>"; };
+		0410B2FF1EC4023200CF4EED /* OSZSixteenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZSixteenVC.h; sourceTree = "<group>"; };
+		0410B3001EC4023200CF4EED /* OSZSixteenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZSixteenVC.m; sourceTree = "<group>"; };
+		0410B30B1EC44BFF00CF4EED /* OSZFlower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZFlower.h; sourceTree = "<group>"; };
+		0410B30C1EC44BFF00CF4EED /* OSZFlower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZFlower.m; sourceTree = "<group>"; };
+		0410B30E1EC4542600CF4EED /* OSZFlowerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZFlowerFactory.h; sourceTree = "<group>"; };
+		0410B30F1EC4542600CF4EED /* OSZFlowerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZFlowerFactory.m; sourceTree = "<group>"; };
 		042766E01EA5F1E600DBFEF1 /* OSZThreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZThreeVC.h; sourceTree = "<group>"; };
 		042766E11EA5F1E600DBFEF1 /* OSZThreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSZThreeVC.m; sourceTree = "<group>"; };
 		04297C721EAEE8330035D18B /* OSZEightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSZEightVC.h; sourceTree = "<group>"; };
@@ -487,6 +496,43 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		0410B2FB1EC401C600CF4EED /* sixteen(享元模式) */ = {
+			isa = PBXGroup;
+			children = (
+				0410B2FC1EC401C600CF4EED /* Controller */,
+				0410B2FD1EC401C600CF4EED /* Model */,
+				0410B2FE1EC401C600CF4EED /* View */,
+			);
+			path = "sixteen(享元模式)";
+			sourceTree = "<group>";
+		};
+		0410B2FC1EC401C600CF4EED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0410B2FF1EC4023200CF4EED /* OSZSixteenVC.h */,
+				0410B3001EC4023200CF4EED /* OSZSixteenVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0410B2FD1EC401C600CF4EED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0410B30B1EC44BFF00CF4EED /* OSZFlower.h */,
+				0410B30C1EC44BFF00CF4EED /* OSZFlower.m */,
+				0410B30E1EC4542600CF4EED /* OSZFlowerFactory.h */,
+				0410B30F1EC4542600CF4EED /* OSZFlowerFactory.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0410B2FE1EC401C600CF4EED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		042766DC1EA5F19700DBFEF1 /* three(适配器模式) */ = {
 			isa = PBXGroup;
 			children = (
@@ -770,6 +816,7 @@
 				0405802E1EB3401500F55647 /* thirteen(模板模式) */,
 				04CC86151EB837EE00187168 /* fourteen(策略模式) */,
 				04CC86221EB873B600187168 /* fifteen(命令模式) */,
+				0410B2FB1EC401C600CF4EED /* sixteen(享元模式) */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -1192,6 +1239,7 @@
 				0439D11E1EA996B400396BBE /* OSZCabDriver.m in Sources */,
 				048E61D11EADAAAE009CCE4A /* OSZSevenVC.m in Sources */,
 				04297C7B1EAEFE260035D18B /* OSZComponet.m in Sources */,
+				0410B3011EC4023200CF4EED /* OSZSixteenVC.m in Sources */,
 				0405803A1EB3442D00F55647 /* OSZChineseFood.m in Sources */,
 				040705C11EA70A2F00DE74FA /* OSZThreeView.m in Sources */,
 				040C5E7D1EB19A8E00D90463 /* OSZElevenVC.m in Sources */,
@@ -1228,6 +1276,7 @@
 				042766E21EA5F1E600DBFEF1 /* OSZThreeVC.m in Sources */,
 				0439D1341EA9FFA200396BBE /* OSZPlaneB.m in Sources */,
 				04CC861E1EB860C100187168 /* OSZFourteenView.m in Sources */,
+				0410B3101EC4542600CF4EED /* OSZFlowerFactory.m in Sources */,
 				04057FDA1EB2F05B00F55647 /* OSZAttack.m in Sources */,
 				044DF4D41EA863D1007B0749 /* OSZRealConsole.m in Sources */,
 				044848161EA463B800120711 /* OSZCharacterBuilder.m in Sources */,
@@ -1246,6 +1295,7 @@
 				044DF4E01EA89035007B0749 /* OSZFourVC.m in Sources */,
 				0439D12E1EA9FE7500396BBE /* OSZPlane.m in Sources */,
 				0439D13A1EA9FFF500396BBE /* OSZMediatorManager.m in Sources */,
+				0410B30D1EC44BFF00CF4EED /* OSZFlower.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
